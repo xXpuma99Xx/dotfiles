@@ -93,4 +93,15 @@ M["git-conflict"] = {
   },
 }
 
+M.sj = {
+  n = {
+    ["s"] = {
+      function()
+        require("sj").run()
+      end,
+      "search",
+    },
+  },
+}
+
 return M

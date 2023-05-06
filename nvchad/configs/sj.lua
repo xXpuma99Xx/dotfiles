@@ -19,8 +19,8 @@ local options = {
   keymaps = {
     cancel = "<Esc>", -- cancel the search
     validate = "<CR>", -- jump to the focused match
-    prev_match = "<A-,>", -- focus the previous match
-    next_match = "<A-;>", -- focus the next match
+    prev_match = "<C-h>", -- focus the previous match
+    next_match = "<C-l>", -- focus the next match
     prev_pattern = "<C-p>", -- select the previous pattern while searching
     next_pattern = "<C-n>", -- select the next pattern while searching
     ---

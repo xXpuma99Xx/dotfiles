@@ -105,14 +105,16 @@ export TERM=xterm-256color
 alias vi="nvim"
 alias vim="nvim"
 
-alias dl="cd ~/Downloads"
+alias ml="mysql -u root -p"
+
 alias acatlan="cd $HOME/Documents/Acatlan"
 alias lemuel="cd $HOME/Documents/Lemuel"
 alias matematicas="cd $HOME/Documents/matematicas"
 alias cursos="cd $HOME/Documents/cursos"
 alias guapa="cd $HOME/Documents/guapa"
 
-alias mslh="mysql -u root -p"
+alias d="cd ~/Documents"
+alias dl="cd ~/Downloads"
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh

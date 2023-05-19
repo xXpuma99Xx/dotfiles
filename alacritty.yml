@@ -804,7 +804,7 @@ key_bindings:
   - { key: S,         mods: Command,       chars: "\x13"                          }
   - { key: Z,         mods: Command,       chars: "\x75"                          }
   - { key: Z,         mods: Command|Shift, chars: "\x12"                          }
-  - { key: F,         mods: Command|Shift, chars: "\x20\x66\x6d"                  }
+  - { key: F,         mods: Alt|Shift,     chars: "\x20\x66\x6d"                  }
   - { key: Key1,      mods: Command,       chars: "\x00\x31"                      }
   - { key: Key2,      mods: Command,       chars: "\x00\x32"                      }
   - { key: Key3,      mods: Command,       chars: "\x00\x33"                      }

@@ -52,6 +52,7 @@ local options = {
       "g++ $fileName",
       "-o $fileNameWithoutExt &&",
       "$dir/$fileNameWithoutExt",
+      -- "< in.in > out.out"
     },
     python = "python -u",
     sh = "bash",
